@@ -20,12 +20,10 @@
 }
 
 .home-container{
-  background-color: #293b61;
   font-size: 25px;
 }
 
 .home-container > h1 {
-  color: rgb(195, 156, 156);
   text-align: center;
   font-size:45px;
 }
@@ -52,8 +50,8 @@
 }
 
 body{
-  background-color: #293b61;
-  color: rgb(195, 156, 156);
+  background-color: #b9c9ec;
+  color: rgb(9, 20, 41);
 }
 
 #root{

@@ -5,6 +5,11 @@ class Home extends React.Component {
     
     constructor(props) {
         super(props);
+        this.gameClick = this.gameClick.bind(this);
+    }
+
+    gameClick(id){
+        
     }
 
     render(){
