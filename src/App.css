@@ -1,13 +1,11 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #293b61;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,4 +17,48 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.home-container{
+  background-color: #293b61;
+  font-size: 25px;
+}
+
+.home-container > h1 {
+  color: rgb(195, 156, 156);
+  text-align: center;
+  font-size:45px;
+}
+
+.home-container > ul {
+  padding-top: 25px;
+}
+
+.home-list{
+ 
+}
+
+.home-list > li{
+  padding-top: 20px;
+  list-style: none;
+  font-size: 30px;
+}
+
+.home-list > li:hover{
+  padding-top: 5px;
+  font-size:35px;
+  cursor: pointer;
+  list-style: none;
+}
+
+body{
+  background-color: #293b61;
+  color: rgb(195, 156, 156);
+}
+
+#root{
+  height:100%;
+  max-width: 1200px;
+  margin: auto;
+  
 }
